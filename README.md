@@ -21,7 +21,7 @@ Blue Water Yacht Dealers is a dealership management system designed to support:
 
 ## Live ER Diagram
 
-[View Interactive ER Diagram →](https://flacosta18.github.io/Yacht-Dealer-DB/docs/yacht_dealer_er_diagram.html)
+[View Interactive ER Diagram →](https://flacosta18.github.io/Yacht-Dealer-DB/yacht_dealer_er_diagram_workbench.html)
 
 ---
 
