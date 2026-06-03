@@ -103,7 +103,9 @@ Blue Water Yacht Dealers is a dealership management system designed to support:
  Tools & Technologies
 
  ''Database:'' MySQL
+ 
  ''Design:'' EntityRelationship Modeling, Normalization
+ 
  ''Notable features:'' Selfreferencing FK (client referrals), composite business logic (deal → financing 1:1), parts inventory with reorder logic, commission rate calculations
 
 
