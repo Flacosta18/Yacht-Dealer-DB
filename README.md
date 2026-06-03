@@ -122,4 +122,4 @@ yachtdealerdb/
 
 
 
-'Academic/portfolio project — Blue Water Yacht Dealers is a fictitious business scenario.'
+'Academic/portfolio project  Blue Water Yacht Dealers is a fictitious business scenario.'
