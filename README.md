@@ -1,4 +1,4 @@
- Blue Water Yacht Dealers — Database Design Project
+ Blue Water Yacht Dealers  Database Design Project
 
 relational database for a yacht dealership covering vessel inventory, sales transactions, financing, employee management, service/maintenance orders, parts inventory, and marina mooring.
 
@@ -8,21 +8,21 @@ relational database for a yacht dealership covering vessel inventory, sales tran
 
 Blue Water Yacht Dealers is a dealership management system designed to support:
 
- ''Vessel inventory'' — manufacturer tracking, hull IDs, condition, pricing, and availability status
+ ''Vessel inventory''  manufacturer tracking, hull IDs, condition, pricing, and availability status
  
- ''Sales pipeline'' — deals linking clients, vessels, and sales reps with tradein support
+ ''Sales pipeline''  deals linking clients, vessels, and sales reps with tradein support
  
- ''Financing'' — loan details, lender info, interest rates, and approval tracking per deal
+ ''Financing''  loan details, lender info, interest rates, and approval tracking per deal
  
- ''Employee management'' — staff across Sales, Service, Finance, and Management departments with commission rates
+ ''Employee management''  staff across Sales, Service, Finance, and Management departments with commission rates
  
- ''Client records'' — individual and corporate buyers with referral tracking and experience level
+ ''Client records''  individual and corporate buyers with referral tracking and experience level
  
- ''Service & maintenance'' — full work orders assigned to technicians with promised dates and status tracking
+ ''Service & maintenance''  full work orders assigned to technicians with promised dates and status tracking
  
- ''Parts inventory'' — parts catalog with reorder alerts and cost/sell pricing
+ ''Parts inventory''  parts catalog with reorder alerts and cost/sell pricing
  
- ''Mooring management'' — slip assignments for vessels currently in service
+ ''Mooring management''  slip assignments for vessels currently in service
 
 
 
@@ -105,12 +105,12 @@ yachtdealerdb/
 
  Sample Queries Included
 
-1. ''Full sales report'' — vessel, client, sales rep, net sale, and commission calculation
-2. ''Open service orders'' — technician assignments, mooring, and promised dates
-3. ''Vessel inventory'' — availability, condition, and pricing sorted by status
-4. ''Sales rep performance'' — closed deals, total revenue, and commission earned per rep
-5. ''Parts reorder alert'' — inventory items at or below reorder threshold
-6. ''Service order cost breakdown'' — parts used, labor, and totals per work order
+1. ''Full sales report''  vessel, client, sales rep, net sale, and commission calculation
+2. ''Open service orders''  technician assignments, mooring, and promised dates
+3. ''Vessel inventory''  availability, condition, and pricing sorted by status
+4. ''Sales rep performance''  closed deals, total revenue, and commission earned per rep
+5. ''Parts reorder alert''  inventory items at or below reorder threshold
+6. ''Service order cost breakdown''  parts used, labor, and totals per work order
 
 
 
