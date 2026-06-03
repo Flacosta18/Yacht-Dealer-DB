@@ -78,16 +78,6 @@ Blue Water Yacht Dealers is a dealership management system designed to support:
 
 
 
- Files
-
-```
-yachtdealerdb/
-├── sql/
-│   └── yacht_dealer_schema.sql    Full DDL + sample data + 6 analytical queries
-├── docs/
-│   └── yacht_dealer_er_diagram.html   Interactive ER diagram
-└── README.md
-```
 
 
 
@@ -95,11 +85,7 @@ yachtdealerdb/
 
 1. Open MySQL Workbench or any MySQL client
 2. Run `sql/yacht_dealer_schema.sql`
-3. The script will:
-    Create the `blue_water_yachts` database
-    Build all 11 tables with constraints and foreign keys
-    Insert sample data across all tables
-    Execute 6 analytical queries demonstrating real business use cases
+3. Once you run script it will create the `blue_water_yachts` database with all 11 tables with constraints and foreign keys it will also insert sample data across all tables and execute 6 analytical queries demonstrating real business use cases.
 
 
 
