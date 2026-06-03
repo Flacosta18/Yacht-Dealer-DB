@@ -9,12 +9,19 @@ relational database for a yacht dealership covering vessel inventory, sales tran
 Blue Water Yacht Dealers is a dealership management system designed to support:
 
  ''Vessel inventory'' — manufacturer tracking, hull IDs, condition, pricing, and availability status
+ 
  ''Sales pipeline'' — deals linking clients, vessels, and sales reps with tradein support
+ 
  ''Financing'' — loan details, lender info, interest rates, and approval tracking per deal
+ 
  ''Employee management'' — staff across Sales, Service, Finance, and Management departments with commission rates
+ 
  ''Client records'' — individual and corporate buyers with referral tracking and experience level
+ 
  ''Service & maintenance'' — full work orders assigned to technicians with promised dates and status tracking
+ 
  ''Parts inventory'' — parts catalog with reorder alerts and cost/sell pricing
+ 
  ''Mooring management'' — slip assignments for vessels currently in service
 
 
@@ -31,15 +38,15 @@ Blue Water Yacht Dealers is a dealership management system designed to support:
 
  Table  Primary Key  Foreign Keys 
 
- `Manufacturer`  `manufacturer_id`  — 
+ `Manufacturer`  `manufacturer_id`   
  `Vessel`  `vessel_id`  `manufacturer_id` 
- `Department`  `department_id`  — 
+ `Department`  `department_id` 
  `Employee`  `employee_id`  `department_id` 
  `Client`  `client_id`  `referred_by` (selfref) 
  `Deal`  `deal_id`  `vessel_id`, `client_id`, `employee_id` 
  `Financing`  `financing_id`  `deal_id` 
  `Mooring`  `mooring_id`  `vessel_id` 
- `Part`  `part_id`  — 
+ `Part`  `part_id`  
  `Service_Order`  `service_order_id`  `vessel_id`, `client_id`, `assigned_tech_id`, `mooring_id` 
  `Service_Line`  `service_line_id`  `service_order_id`, `part_id` 
 
@@ -48,15 +55,25 @@ Blue Water Yacht Dealers is a dealership management system designed to support:
  Key Relationships
 
  One ''Manufacturer'' → Many ''Vessels'' (1:M)
+ 
  One ''Department'' → Many ''Employees'' (1:M)
+ 
  One ''Vessel'' → Many ''Deals'' (1:M)
+ 
  One ''Client'' → Many ''Deals'' (1:M)
+ 
  One ''Employee'' → Many ''Deals'' as sales rep (1:M)
+ 
  One ''Deal'' → One ''Financing'' plan (1:1)
+ 
  One ''Vessel'' → Many ''Service Orders'' (1:M)
+ 
  One ''Service Order'' → Many ''Service Lines'' (1:M)
+ 
  One ''Part'' → Many ''Service Lines'' (1:M)
+ 
  One ''Mooring'' → One active ''Vessel'' assignment (1:1)
+ 
  One ''Client'' → Many ''Client referrals'' (selfreferencing 1:M)
 
 
